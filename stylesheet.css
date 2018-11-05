@@ -1,0 +1,175 @@
+html
+{
+	background-color:white;
+	margin:0px 0px 0px 0px;
+}
+
+body
+{
+	width:1024px;
+	background-color:#F8F8F8;
+	margin:auto auto auto auto;
+	padding:20px 4% 0px 4%;
+	font-family: 'Oxygen', sans-serif;
+	color:#AFAFAF;
+	font-weight:bold;
+	text-align:center;
+}
+
+#Me
+{
+  	border-radius: 100%; 
+	border: 3px solid #FF8000;
+	height:150px;
+	width:150px;
+	background:url(./images/MeSmall.jpg);
+	background-position:top;
+	margin-left:437px;
+	margin-top:10px;
+}
+
+#Navbar
+{
+	margin:auto;
+}
+
+#Menu
+{
+	padding-left:0px;
+}
+
+#Menu li
+{
+	display:inline-block;
+	border-style: solid none solid none;
+	border-width: 1px 0px 1px 0px;
+	margin:0px -5px 0px 0px;
+	padding:10px 50px 10px 50px;
+}
+
+#HomepageGame
+{
+	width: 780px;
+	height: 220px;
+	display:inline-block;
+	margin-top: 30px;
+}
+
+#PhysicsEngine
+{
+    width: 1024px;
+    height: 700px;
+    margin-top: -10px;
+    display:inline-block;
+    border: 1px solid black;
+}
+
+#Content
+{
+	text-align:center;
+}
+
+#Content p
+{
+	text-align:left;
+	margin-left:40px;
+}
+
+h1
+{
+	font-weight:900;
+}
+
+p
+{
+	font-weight:500;
+}
+
+h2
+{
+	color:#808080;
+}
+
+span
+{
+	color:#FF8000;
+}
+
+a
+{
+	color:inherit;
+}
+
+.Project h1
+{
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.Project
+{
+	padding:0px 30px 15px 30px;
+	border-bottom:2px solid #AFAFAF;
+}
+
+.ProjectImage
+{
+	border:1px solid #AFAFAF;
+    margin-top: 20px;
+	margin-right:10px;
+	width:266px;
+	height:150px;
+	display: inline-block;
+	float:left;
+}
+
+.ProjectText
+{
+	display:inline-block;
+	width:684px;
+	text-align:left;
+}
+
+.ProjectButtons
+{
+	text-align:center;
+	margin-left:-150px;
+}
+
+.SourceButton
+{
+	text-decoration:none;
+	padding:0px 30px 0px 30px;
+}
+
+.SourceButton:hover
+{
+	position:relative;
+	left: 2px;
+	top: 2px;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.button
+{
+	text-decoration:none;
+	color:#AFAFAF;
+	width:100%;
+	height:100%;
+}
+
+.HomePageButton
+{
+	text-decoration:none;
+}
+
+.button:hover
+{
+	color:#FF8000;
+	width:100%;
+	height:100%;
+}
